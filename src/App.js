@@ -26,10 +26,10 @@ function App() {
               <label htmlFor="symbols">Symbols</label>
         </div>
         <div id="passSize">
-          <input type="number"/>
-          <input type="range" name='size' min="0" max = "100"/>
+          <input type="number" id='size'/>
+          <input type="range"  name='size' min="0" max = "100"/>
         </div>
-        <button>Copy Password</button>
+        <button className='btn'>Copy Password</button>
       </form>
     </div>
     </>
